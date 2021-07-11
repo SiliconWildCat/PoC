@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.outer_box{
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+.player_box{
+    position: relative;
+    top: 25%;
+    left: 25%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*.singer{
+    display: flex;
+}
+.singer_image{
+    position: relative;
+    height: 400px;
+    width: 250px;
+
+    left: 60%;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 70.91%, rgba(0, 0, 0, 0.5) 78.62%), url(./태연.jpg);
+    background-blend-mode: darken, normal;
+    border-radius: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#singer_name{
+    position: static;
+    width: 162px;
+    height: 57px;
+    top: 12%;
+    left: 75%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EAD8FC;
+}*/
+
+
+/*상단바 구성 */
+.top_bar{
+    position: absolute;
+    width: 60%;
+    height: 10%;
+    left: 20%;
+    top: 5%;
+
+    background: linear-gradient(0deg, #F8E9CE, #F8E9CE), #F8E9CE;
+    opacity: 0.85;
+    border-radius: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
