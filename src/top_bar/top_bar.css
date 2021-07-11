@@ -1,0 +1,42 @@
+.buttons{
+        position: absolute;
+        width: 60%;
+        height: 10%;
+        left: 20%;
+        top: 5%;
+        padding-top: 10px;
+
+        background: linear-gradient(0deg, #F8E9CE, #F8E9CE), #F8E9CE;
+        opacity: 0.85;
+        border-radius: 25px;    
+
+        text-align: center;
+}
+#about{
+    background: #F5C2C2;    
+    border-radius: 15px;
+    margin-left:20px;
+}
+#team{
+    background: #F0CF9D;
+    border-radius: 15px;
+    margin-left:10px;
+}
+#road_map{
+    background: #F0CF9D;
+    border-radius: 15px;
+    margin-left:10px;
+}
+#etc{
+    background: #F0CF9D;
+    border-radius: 15px;
+    margin-left:10px;
+}
+
+.top_btn{
+    cursor:pointer;
+    position: relative;
+    height: 70px;
+    width: 20%;
+    font-family: sans-serif;
+}
