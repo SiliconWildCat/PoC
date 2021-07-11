@@ -1,28 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
+import SoundPlayer from './main_component/soundPlayer';
 import './App.css';
-import React, { useState } from 'react';
+import TopBar from './top_bar/menu_bar';
 
 function App() {
-  const [number, onChangeNumber] = useState(0);
-  const [text, onChangeText] = useState('123123');
-  const onClickAdd = () => {
-    onChangeNumber(number + 1);
-  };
-  const onClickMinus = () => {
-    onChangeNumber(number - 1);
-  };
-  const ChangeText = (e) => {
-    onChangeText(e.target.value);
-  };
   return (
-    <div>
-      <div style={{ margin: '200px' }}>{number}</div>
-      <button onClick={onClickAdd}>+1</button>
-      <button onClick={onClickMinus}>-1</button>
-      <input type="text" value={text} onChange={ChangeText} />
-      <div>{text}</div>
+    <div className="outer_box">
+          <TopBar />
+        <span className="player_box item">
+            <SoundPlayer /> 
+        </span>
     </div>
   );
 }
 
 export default App;
+/** <span className="singer item">
+        <img className="singer_image" src={taeyeon_img} alt="taeyeon" />
+        <div id="singer_name">태연</div>
+      </span>
+     */
