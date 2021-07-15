@@ -1,12 +1,12 @@
-.outer_box{
-    margin:0;
-    width: 100%;
-    height: 100%;
+.outer_box {
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
-.player_box{
-    position: relative;
-    top: 25%;
-    left: 25%;
+.player_box {
+  position: relative;
+  top: 25%;
+  left: 25%;
 }
 
 /*.singer{
@@ -43,17 +43,14 @@
     color: #EAD8FC;
 }*/
 
-
 /*상단바 구성 */
-.top_bar{
-    position: absolute;
-    width: 60%;
-    height: 10%;
-    left: 20%;
-    top: 5%;
+.top_bar {
+  position: absolute;
+  width: 60%;
+  height: 10%;
+  left: 20%;
+  top: 5%;
 
-    background: linear-gradient(0deg, #F8E9CE, #F8E9CE), #F8E9CE;
-    opacity: 0.85;
-    border-radius: 25px;
+  opacity: 0.85;
+  border-radius: 25px;
 }
-
